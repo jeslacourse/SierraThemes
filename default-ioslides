@@ -14,7 +14,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
-  padding: 0;
+  padding: 1;
   border: 0;
   font: inherit;
   font-size: 100%;
@@ -42,7 +42,7 @@ caption, th, tr {
   font-size: 85%;
   font-weight: normal;
   vertical-align: middle;
-  text-align: left
+  text-align: left;
   
 }
 
@@ -51,6 +51,7 @@ td {
   font-size: 85%;
   font-weight: normal;
   vertical-align: middle;
+  height: 110%;
 }
 
 /* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
@@ -66,6 +67,9 @@ q:before, q:after, blockquote:before, blockquote:after {
 /* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
@@ -85,7 +89,7 @@ html {
 /* line 57, ../scss/_base.scss */
 body {
   margin: 0;
-  padding: 0;
+  padding: 1;
   opacity: 0;
   height: 100%;
   min-height: 740px;
@@ -742,6 +746,7 @@ table.rmdtable {
   border-collapse: initial;
   border-spacing: 2px;
   border-bottom: 1px solid #797979;
+  padding-bottom: 5px;
 }
 /* line 479, ../scss/default.scss */
 table.rmdtable tr > td:first-child, table th {
@@ -765,7 +770,7 @@ table.rmdtable th {
 /* line 494, ../scss/default.scss */
 table.rmdtable td, table th {
   font-size: 18px;
-  padding: 1em 0.5em;
+  padding: 1em 1em;
 }
 /* line 499, ../scss/default.scss */
 table.rmdtable td.highlight {
@@ -1530,4 +1535,3 @@ input {
 .dataTables_info, .dataTables_paginate {
   font-size: 14px;
 }
-
